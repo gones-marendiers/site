@@ -1,4 +1,40 @@
 baseURL = "https://lesmarendiers.netlify.com/"
 languageCode = "fr-fr"
+DefaultContentLanguage = "fr"
 title = "Les Gônes des Marendiers"
 theme = "beautifulhugo"
+
+metaDataFormat = "yaml"
+
+[Params]
+  subtitle = "L'association des parents d'élèves de l'école maternelle et primaire des Mariendiers de Saint-Priest"
+  logo = "img/gones.jpg"
+#  favicon = "img/favicon.ico"
+  dateFormat = "02 / 01 / 2006"
+  commit = false
+  rss = true
+  comments = false
+  readingTime = false
+  useHLJS = false
+  socialShare = false
+
+[Author]
+  name = "Julien Gervais-Bird"
+  website = "https://www.jgb.ca/"
+  email = "lesmarendiers@free.fr"
+  github = "gones-marendiers"
+
+[[menu.main]]
+    name = "Nouvelles"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "L'association"
+    url = "page/l-association"
+    weight = 2
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
